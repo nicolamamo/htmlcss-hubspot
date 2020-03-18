@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+#top{height: 150px;
+    background-color: red;
+
+}
+
+.container{width: 1080px;
+height: 100%;
+background-color: blue;
+margin: auto;
+border: 2px black;
+border-style: solid;}
+
+
+.top-right{
+    width: 50%;
+    height:100%;
+    background-color: pink;
+    float: left;
+}
+
+.top-left{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+.container::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+#bottom{height: 150px;
+background-color: purple}
+
+section{
+height: 400px;
+background-color: yellow;
+}
