@@ -11,13 +11,21 @@ padding: 30px;
 border-bottom: 2px;
 border-color: #DEDEDE;
 border-style: solid;
-
 }
+
+i{height: 10px;
+width: 10px;}
+
+i:first-of-type{margin-right: 10px;}
+
+
+
 #topleft-dx{float: left;}
 #topleft-sn{float: left ;}
 #topleft-sn  i{
-    float: left;
-}
+    float: left;}
+
+
 #topleft-sn h3 {
 display: inline-block;
 float: left;
@@ -37,24 +45,24 @@ margin: auto;
     float: left;
     text-align: right;
 }
-button{background-color: white;
-height: 25px;
-color: orange;
- padding: 15px 32px;
- text-decoration: none;
-display: inline-block;
- font-size: 16px;
-}
 
-#button2{display: inline-block;
+
+.log-in{color: orange;
+background: white;
+padding: 0.9em 1.388em 0.6em; */
+font-size: .833rem;
+min-width: 8.555rem;
+text-decoration: none;}
+
+.get-free{
+    border-radius: .1875rem;
     background-color: orange;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+    color: white;
+    padding: 1.411em 2em 1.211em;
+    font-size: .944rem;
+    min-width: 7.277rem;
+text-decoration: none;}
+
 
 .fa-search{display: inline-block;
 margin: 15px;}
@@ -88,8 +96,6 @@ padding-bottom: 30px;}
     float: left;
     text-align: right;}
 
-
-
     #menu li {
         display: block;
         float: right;
@@ -99,8 +105,93 @@ padding-bottom: 30px;}
 #pag1{height: 1000px;
 width: 100%;
 background-image:url(C:\Users\nicola\Documents\boolean\htmlcss-hubspot\Background.png);
-background-color: #ffd890;
+background-size: 1257 371;
+background-repeat: no-repeat;
+background-position: right;
 }
 
 #blocco{height: 100%;
-width: 50%}
+width: 50%;
+text-align: left;
+display: block;}
+#sfondo{background-image: url(Background.png);}
+
+
+#sub-link{margin-top: 40px;
+width: 170px;}
+
+
+h1{font-weight: 700;
+    line-height: 1.000em;
+font-size: 70px;
+font-family: 'Roboto' , sans-serif;
+padding-top: 20px;}
+
+p{
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    line-height: 1.6111111111111112em;
+    color: #334475;
+    font-family: 'Montserrat', sans-serif;}
+
+
+    .get-free-big{
+        border-radius: .1875rem;
+        background-color: orange;
+        color: white;
+        padding: 1.411em 2em 1.211em;
+        font-size: .944rem;
+        min-width: 7.277rem;
+    text-decoration: none;
+    }
+
+.pag-box{background-color: #F0F8FF;}
+
+
+
+
+#sub-link p {margin-top: 40px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#prodotto{width: 30%;
+background-color: #F0F8FF;
+height:250px;
+float: left;
+margin-top: 40px;}
+#crm{width: 70%;
+background-color: white;
+height: 250px;
+float: left;
+margin-top: 40px;}
+
+#description{
+background-color: #F0F8FF;
+height:400px;}
+
+#crm::after{clear: both;
+display: table;
+content: '';}
+
+
+#box-a {width: 30%;
+margin-right: 3%;
+height: 300px;
+background-color: green;
+float: left;
+margin-top: 20px;}
+
+#box-b{width: 30%;
+margin-right: 3%;
+height: 300px;
+background-color: white;
+float: left;
+margin-top: 20px;}
+
+#box-c{width: 34%;
+background-color: red;
+height: 300px;
+float: left;
+margin-top: 20px;}
